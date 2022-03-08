@@ -140,7 +140,6 @@ public class PropertyDetailsRunnable implements Runnable{
                         @RequiresApi(api = Build.VERSION_CODES.N)
                         @Override
                         public void onClick(View view) {
-                            //TODO: Save current property id to a string list as well as the property object in another list
 
                             if(isPropertySaved(selectedPropertyId)){
                                 //if it is saved -> remove it from the list and then save the list in the shared preferences as json string
