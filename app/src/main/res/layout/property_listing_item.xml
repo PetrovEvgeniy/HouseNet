@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/propertyListingItem"
+    android:layout_width="match_parent"
+    android:layout_height="400dp">
+
+    <TextView
+        android:id="@+id/bathroomsCountView"
+        android:layout_width="37dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="12dp"
+        android:text="TextView"
+        app:layout_constraintStart_toEndOf="@+id/imageView2"
+        app:layout_constraintTop_toBottomOf="@+id/propertyPriceView" />
+
+    <TextView
+        android:id="@+id/bedroomsCountView"
+        android:layout_width="38dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="12dp"
+        android:text="TextView"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/propertyPriceView" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="12dp"
+        android:contentDescription="m2Icon"
+        app:layout_constraintStart_toEndOf="@+id/bathroomsCountView"
+        app:layout_constraintTop_toBottomOf="@+id/propertyPriceView"
+        app:srcCompat="@drawable/area" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="12dp"
+        android:contentDescription="bedIcon"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/propertyPriceView"
+        app:srcCompat="@drawable/bed" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="12dp"
+        android:contentDescription="bathIcon"
+        app:layout_constraintStart_toEndOf="@+id/bedroomsCountView"
+        app:layout_constraintTop_toBottomOf="@+id/propertyPriceView"
+        app:srcCompat="@drawable/bathtub" />
+
+    <TextView
+        android:id="@+id/squareMetersView"
+        android:layout_width="54dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="12dp"
+        android:text="TextView"
+        app:layout_constraintStart_toEndOf="@+id/imageView3"
+        app:layout_constraintTop_toBottomOf="@+id/propertyPriceView" />
+
+    <ImageView
+        android:id="@+id/coverImageView"
+        android:layout_width="408dp"
+        android:layout_height="252dp"
+        android:layout_marginTop="4dp"
+        android:contentDescription="Property Cover Image view"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/propertyPriceView"
+        android:layout_width="294dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="16dp"
+        android:text="200000 €"
+        android:textColor="@color/green_200"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/coverImageView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
