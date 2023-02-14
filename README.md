@@ -11,7 +11,7 @@ For better UX there exists a functionality to save and store individual properti
 
 Finally, there is a built-in error handling (in case of network error for example, or if no search results are found)
 
-## 🏹API Used
+## 🛠️API Used
 Bayut API (real publically available Real Estate data for properties located in the United Arab Emirates)
 
 LIMIT 500 requests per month (if you want more change the authorization token in the BackEndUrls.java file, or pay the premium RapidAPI subscription)
