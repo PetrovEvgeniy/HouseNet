@@ -1,5 +1,5 @@
 # HouseNet
-HouseNet is my latest Android project, of the Mobile Application Development course, held in the third semester of Technische Hochschule Ulm. It was an OPTIONAL project and it was rated with 11/12 bonus points. (The exam was a grand total of 90 points).
+HouseNet is my latest Android project, of the Mobile Application Development course, held in the third semester of Technische Hochschule Ulm. It was an OPTIONAL project and it was rated with 11/12 points by Prof. Philip Graf.
 
 ## Main Functionality 
 The general purpose of the project is an Android application, which gives the opportunity to the user to see all available listed real estate properties. Additionally, filter them out (search) by their property type and city, in which they are located.
