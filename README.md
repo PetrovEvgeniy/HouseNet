@@ -1,4 +1,4 @@
-![House Net](https://i.ibb.co/FDyWPHp/image001.jpg)
+<img src="https://i.ibb.co/FDyWPHp/image001.jpg" style="width: 100%" alt="Header banner"  />
 # 🏠HouseNet
 HouseNet is my latest Android project, of the Mobile Application Development course, held in the third semester of Technische Hochschule Ulm. It was an OPTIONAL project and it was rated with 11/12 points by Prof. Philip Graf.
 
