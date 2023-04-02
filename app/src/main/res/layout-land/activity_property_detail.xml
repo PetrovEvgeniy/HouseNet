@@ -129,40 +129,38 @@
         android:id="@+id/saveButton"
         android:layout_width="181dp"
         android:layout_height="54dp"
+        android:layout_marginBottom="4dp"
         android:text="Save"
         app:icon="@android:drawable/btn_star"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.65"
-        app:layout_constraintStart_toEndOf="@+id/locationButton"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.98" />
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toEndOf="@+id/locationButton" />
 
     <Button
         android:id="@+id/locationButton"
         android:layout_width="181dp"
         android:layout_height="54dp"
+        android:layout_marginBottom="4dp"
         android:text="Locate"
         app:icon="@android:drawable/ic_dialog_map"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.98" />
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/callButton"
         style="@style/Widget.MaterialComponents.Button"
         android:layout_width="181dp"
         android:layout_height="54dp"
+        android:layout_marginBottom="4dp"
         android:text="Call"
         app:icon="@android:drawable/sym_action_call"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/locationButton"
-        app:layout_constraintHorizontal_bias="0.243"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.98" />
+        app:layout_constraintHorizontal_bias="0.224"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/textView5"

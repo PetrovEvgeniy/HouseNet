@@ -73,7 +73,7 @@
         android:id="@+id/propertyPriceView"
         android:layout_width="294dp"
         android:layout_height="35dp"
-        android:layout_marginStart="24dp"
+        android:layout_marginStart="20dp"
         android:text="200000 €"
         android:textColor="@color/green_200"
         android:textSize="30sp"
@@ -81,30 +81,30 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.385" />
+        app:layout_constraintVertical_bias="0.349" />
 
     <ImageView
-            android:id="@+id/coverImageView"
-            android:layout_width="408dp"
-            android:layout_height="252dp"
-            android:layout_marginTop="4dp"
-            android:contentDescription="Property Cover Image view"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.4"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+        android:id="@+id/coverImageView"
+        android:layout_width="387dp"
+        android:layout_height="221dp"
+        android:layout_marginTop="16dp"
+        android:contentDescription="Property Cover Image view"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/descriptionTextView"
-        android:layout_width="379dp"
-        android:layout_height="221dp"
+        android:layout_width="342dp"
+        android:layout_height="199dp"
         android:scrollbars="vertical"
         android:text="Loading..."
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.16"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.789" />
+        app:layout_constraintVertical_bias="0.766" />
 
     <TextView
         android:id="@+id/titleTextView"
@@ -115,9 +115,10 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.444"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/coverImageView"
-        app:layout_constraintVertical_bias="0.513" />
+        app:layout_constraintVertical_bias="0.487" />
 
     <Button
         android:id="@+id/saveButton"
@@ -128,9 +129,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.555"
-        app:layout_constraintStart_toEndOf="@+id/locationButton"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.976" />
+        app:layout_constraintStart_toEndOf="@+id/locationButton" />
 
     <Button
         android:id="@+id/locationButton"
@@ -140,9 +139,7 @@
         app:icon="@android:drawable/ic_dialog_map"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.976" />
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/callButton"
@@ -154,9 +151,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/locationButton"
         app:layout_constraintHorizontal_bias="0.142"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.976" />
+        app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/textView5"
@@ -179,9 +174,9 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.976"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.882" />
+        app:layout_constraintVertical_bias="0.884" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
