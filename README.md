@@ -14,6 +14,8 @@ Another feature is to see more details about each individual property, for examp
 For better UX there exists a functionality to save and store individual properties into a list and display them to another "Favorites" view page.
 
 Finally, there is a built-in error handling (in case of network error for example, or if no search results are found)
+  
+## Todo: Add GIF for illustration
 
 ## 🛠️API Used
 Bayut API (real publically available Real Estate data for properties located in the United Arab Emirates)
